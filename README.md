@@ -11,11 +11,11 @@ Site estático responsivo da Souk. Entrega de 21 de outubro de 2026.
 
 ## Publicação
 
-Publique os arquivos desta pasta em uma hospedagem de sites estáticos. O arquivo `index.html` deve ficar na raiz da pasta pública. Preserve a subpasta `assets/`.
+O repositório público `prorpevee-cmyk/souk-site` usa GitHub Pages para a prévia de aprovação. Em **Settings → Pages**, a origem é **Deploy from a branch**, branch **main**, pasta **/ (root)**. Alterações salvas em `main` iniciam uma nova publicação; acompanhe o resultado na aba **Actions**.
 
 Não há instalação de pacotes, etapa de compilação, banco de dados, API ou login de visitante. Todos os elementos visuais estão incluídos. O único destino externo é o botão do WhatsApp.
 
-O domínio e o HTTPS devem ser configurados na hospedagem escolhida. Colocar o código neste repositório, por si só, não altera o endereço do site.
+O domínio do cliente será configurado depois da aprovação. A prévia usa o domínio padrão do GitHub Pages com HTTPS. Para migrar para outra hospedagem estática, mantenha `index.html` na raiz da pasta pública e preserve a subpasta `assets/`.
 
 ## Manutenção
 
@@ -23,7 +23,7 @@ O texto da headline é compartilhado entre celular e desktop. Ao alterá-lo em `
 
 O muro aparece na lateral do desktop e como uma animação no rodapé do celular. A assinatura do rodapé é `© 2026 Souk. Todos os direitos reservados.`
 
-Mantenha as mudanças sincronizadas com a hospedagem usada em produção. Este repositório é uma cópia de entrega; não há sincronização automática com a hospedagem atual.
+O GitHub Pages acompanha este repositório. A versão anterior hospedada no Sites é independente: não há sincronização automática entre Sites e GitHub.
 
 ## Visualização local
 
