@@ -1,30 +1,28 @@
-# Souk — página em construção
+# SOUK — página em construção
 
-Site estático responsivo da Souk. Entrega de 21 de outubro de 2026.
+Página estática responsiva, redesenhada em 23 de outubro de 2026. Mantém a mensagem de construção e o WhatsApp comercial da versão anterior.
 
-## Conteúdo
+## Direção visual
 
-- `index.html`: textos e estrutura da página.
-- `style.css`: identidade visual e versões de celular e desktop.
-- `motion.js`: animações, respeitando a preferência do dispositivo por movimento reduzido.
-- `assets/`: logos, fontes locais e licença da fonte Inter.
+Base preta, tipografia em grande escala, lima sólido e símbolo oficial acompanhado de linhas azuis. A faixa de contato concentra o CTA. Não há cases, métricas ou depoimentos adicionados.
 
-## Publicação
+- Cores do Brand Book SOUK 2026: `#131313`, `#F4F4F4`, `#DBFE1B`, `#233CCD`.
+- Blauer Nue Bold e Regular nos títulos e chamadas; Inter Regular no rodapé.
+- Fontes e logos locais, provenientes dos arquivos oficiais fornecidos.
+- As órbitas giram continuamente a cada 12 segundos e respeitam `prefers-reduced-motion`.
 
-O repositório público `prorpevee-cmyk/souk-site` usa GitHub Pages para a prévia de aprovação. Em **Settings → Pages**, a origem é **Deploy from a branch**, branch **main**, pasta **/ (root)**. Alterações salvas em `main` iniciam uma nova publicação; acompanhe o resultado na aba **Actions**.
+## Arquivos
 
-Não há instalação de pacotes, etapa de compilação, banco de dados, API ou login de visitante. Todos os elementos visuais estão incluídos. O único destino externo é o botão do WhatsApp.
+- `index.html`: conteúdo, metadados, elementos gráficos e links.
+- `style.css`: fontes, composição, animação e adaptação para celular.
+- `assets/`: arquivos de marca e fontes. Alguns ativos da versão anterior permanecem preservados, mesmo sem uso na composição atual.
 
-O domínio do cliente será configurado depois da aprovação. A prévia usa o domínio padrão do GitHub Pages com HTTPS. Para migrar para outra hospedagem estática, mantenha `index.html` na raiz da pasta pública e preserve a subpasta `assets/`.
+Não há dependências externas, formulário, rastreamento, bibliotecas JavaScript ou etapa de compilação. O arquivo legado `motion.js` não é carregado pela página atual.
 
-## Manutenção
+## Publicação e contato
 
-O texto da headline é compartilhado entre celular e desktop. Ao alterá-lo em `index.html`, atualize também o `aria-label` do título e a descrição da página. O link do botão está no mesmo arquivo e aponta para o WhatsApp comercial da Souk: +55 41 98834-9172.
+O GitHub Pages publica a branch `main`, pasta raiz. O domínio da prévia é https://prorpevee-cmyk.github.io/souk-site/.
 
-O muro aparece na lateral do desktop e como uma animação no rodapé do celular. A assinatura do rodapé é `© 2026 Souk. Todos os direitos reservados.`
+O botão abre o WhatsApp comercial +55 41 98834-9172 com a mensagem original preenchida. O visitante decide se deseja enviá-la.
 
-O GitHub Pages acompanha este repositório. A versão anterior hospedada no Sites é independente: não há sincronização automática entre Sites e GitHub.
-
-## Visualização local
-
-Abra `index.html` no navegador ou sirva esta pasta com um servidor HTTP estático. Antes de publicar mudanças, confira uma tela larga e uma tela de celular e teste o destino do botão.
+Para visualizar localmente, abra `index.html` ou sirva esta pasta com um servidor HTTP. Confira a composição em desktop e celular antes de publicar alterações.
