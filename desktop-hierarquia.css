@@ -1,0 +1,13 @@
+@media(min-width:741px){
+  .continuation{font-size:26px;line-height:1.25;max-width:520px;margin-top:18px}
+  .contact{margin-top:36px}
+  .contact-inner.wrap{gap:16px}
+  .contact-text{font-size:19px;line-height:1.4;max-width:400px}
+  .cta{max-width:400px;min-height:80px;padding:18px 22px}
+  .cta>span:first-child{font-size:20px;line-height:1.15}
+  .cta-arrow{width:44px;height:44px}
+}
+@media(min-width:741px) and (max-height:700px){
+  .continuation{font-size:24px;margin-top:16px}
+  .contact{margin-top:28px}
+}
